@@ -1,0 +1,5 @@
+[build]
+  command = "yarn build"
+  functions = "functions" #  netlify-lambda reads this
+[template.environment]
+  MSFT_BOT_SHARED_SECRET = ""

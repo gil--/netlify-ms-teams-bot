@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "netlify-lambda build functions/src",
+    "serve": "netlify-lambda serve functions/src -p 6001"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "netlify-lambda": "^1.3.3"
+  }
+}
